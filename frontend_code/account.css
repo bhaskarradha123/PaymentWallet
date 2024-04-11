@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    /* border: 5px solid blue; */
+    width: auto;
+    height: 760px;
+}
+.logo-section{
+    /* border: 5px solid aqua; */
+    width: auto;
+    height: 200px;
+    margin-top: 0%;
+}
+#logo-container{
+    /* border: 5px solid red; */
+    height: inherit;
+    width: auto;
+    text-align: center!important;
+    padding-top: 60px;
+}
+#logo{
+    /* border: 2px solid; */
+    margin: auto;
+    width: 15%;
+    height: 95%;
+    cursor: pointer;
+}
+.btns-section{
+    /* border: 2px solid red; */
+    height: 70%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns-container{
+    /* border: 1px solid green; */
+    height: 50%;
+    width: 80%;
+    display: flex;
+}
+.btns-container div{
+    /* border: 1px solid gold; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+}
+.btns-container div button{
+    text-transform: capitalize;
+    height: inherit;
+    width: auto;
+    padding: 5% 5% 5% 5%; 
+    font-size: larger;
+    font-weight: 500;
+    font-family:cursive;
+    border-radius: 16px;
+    letter-spacing: 1.5px;
+    color: #313133;
+    background-color:#4FD1C5;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+}
+.btns-container div button:hover{
+    color: black;
+    border: 3px solid rgb(5, 245, 37);
+    transform: translateY(-6px);
+    cursor: pointer;
+}

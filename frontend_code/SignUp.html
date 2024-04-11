@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="./SignUp.css">
+</head>
+<body>
+    <div id="main">
+        <div id="smain">
+          <div id="logo-container">
+            <img id="logo" title="Click here for Home page" onclick="location.href='http://127.0.0.1:5500/index.html'" src="./image/w1.png" alt="">
+          </div>
+            <div class="form-outermost">
+              <div class="form-outer">
+                <form action="" method="post" autocomplete="on">
+                  <h1>sign-up</h1>
+                  <!-- <hr> -->
+                  <!-- <br> -->
+                  <div class="col-md-6">
+                      <label for="inputName4" class="form-label">name</label>
+                      <br>
+                      <input type="text" minlength="3" class="form-control" id="inputName4" maxlength="50" required>
+                      <p id="pname"></p>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                      <label for="inputUserId4" class="form-label">userId</label>
+                      <br>
+                      <input type="text" autocomplete="off" class="form-control" id="inputUserId4" minlength="3" maxlength="15" required/>
+                      <p id="puid"></p>
+                    </div>
+                    <br>
+                  <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">email</label>
+                      <br>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="username@gmail.com" minlength="9" maxlength="30" required />
+                      <p id="pemail"></p>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">password</label>
+                      <br>
+                      <input type="password" autocomplete="off" class="form-control" id="inputPassword4" minlength="6" maxlength="15" required>
+                      <p id="ppwd"></p>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                      <label for="inputPhone4" class="form-label">phone</label>
+                      <br>
+                      <input type="tel" class="form-control" id="inputPhone4" placeholder="Enter 10 digit number" minlength="10" maxlength="10" required>
+                      <p id="ppno"></p>
+                    </div>
+                    <br>
+                    <div class="btns-container">
+                      <button type="submit" id="subbtn" class="btn btn-primary">submit</button>
+                      <button type="reset" id="resbtn" class="btn btn-primary">reset</button>
+                    </div>
+              </form>
+              </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./SignUp.js"></script>
+</body>
+</html>

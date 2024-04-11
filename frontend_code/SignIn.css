@@ -1,0 +1,119 @@
+#user-form{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 450px;
+    width: 400px;
+    margin: 0%;
+    display: none;
+    background-image: linear-gradient(#cf5ef2 , #f8feffcc ,#ebf43a ,#DED7E9);
+    color: #1A043F;
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* align-items: center!important; */
+}
+
+#siemail,#sipassword{
+    border-radius: 3px;
+    padding: 3px 7px;
+    letter-spacing: 2px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    outline: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+}
+
+#user-form h1{
+    padding-top: 25px;
+    padding-left: 100px;
+    text-transform: uppercase;
+}
+
+#user-form form{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#user-form form label{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#sign-up-block{
+    /* border: 1px solid; */
+    margin-top: 25px;
+    margin-right: 50px;
+    text-align: center!important;
+}
+
+#sign-up-link{
+    text-decoration: none;
+    color:firebrick;
+    font-weight: 500;
+    font-size:large;
+    text-transform: capitalize;
+    /* margin: auto; */
+
+}
+
+#user-form form input{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+#user-form form button{
+    margin-top:20px ;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 50px;
+    color: #1A043F;
+}
+
+#link{
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#subbtn{
+    /* margin-top: -1px!important; */
+    width: 100px;
+    height: 2.5em;
+    border-radius: 16px;
+    font-family: 'Nunito', sans-serif;
+  font-size:medium;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+    font-weight: 700;
+    /* text-transform: capitalize; */
+    color: #313133;
+    background-color:#4FD1C5;
+    display: inline-block;
+    background: #4FD1C5;
+    background: linear-gradient(90deg, rgb(6, 102, 89) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+}
+ #subbtn:hover{
+    color: black;
+    border: 2px solid rgb(5, 245, 37);
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+#ssbreak{
+    margin-right: 50px;
+    margin-bottom: -10px;
+    border-color:lightgray;
+}

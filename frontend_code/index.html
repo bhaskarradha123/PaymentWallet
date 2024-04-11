@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Wallet</title>
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section id="main">
+        <aside id="left">
+            <div id="aside1">
+                <h1>Send, Receive, Top-Up<br>Your Money Easily</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do<br>eiusmod tempor incididunt ut labore et dolore magna aliqua<br>minim veniam quis nostrud exercitation
+                </p>
+                <article id="demo2">
+                    <button class="btns">get started</button>
+                    <button class="btns">learn more</button>
+                </article>
+            </div>
+        </aside>
+        <aside id="right">
+            <img src="./image/girl.png" alt="">
+        </aside>
+    </section>
+    <div id="nav">
+        <article id="sub-nav">
+            <img src="./image/w1.png" alt="">
+            <ol id="demo">
+                <li><a href="">home</a></li>
+                <li id="account"><a href="">Account</a></li>
+                <li><a href="">About</a></li>
+                <li id="services">Services</li>
+                <li><a href="">Info</a></li>
+                <li><a href="">Contact</a></li>
+            </ol>
+            <div id="snlbtns">
+                <button id="btn" type="submit">sign in</button>
+                <button id="logged-in">Logout</button>
+            </div>
+        </article>
+        <ol id="demo1">
+            <li><a href="">team</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">pricing</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="">single post</a></li>
+            <li><a href="">404 page</a></li>
+        </ol>
+    </div>
+    <div id="user-form">
+        <h1>sign-in form</h1>
+        <form action="" method="POST" autocomplete="off">
+            <label for="inputEmail4" class="form-label">email</label>
+            <input type="email" id="siemail" class="form-control" name="inputEmail4" minlength="9" maxlength="30" placeholder="username@gmail.com" required autocomplete="on">  
+            <p id="p_email"></p>
+            <br>
+            <label for="inputPassword4" class="form-label">password</label>
+            <input type="password" class="form-control" name="inputPassword4" id="sipassword" minlength="6" maxlength="15" required autocomplete="off">
+            <p id="p_password"></p>
+            <br>
+            <button type="submit" id="subbtn" class="btn btn-primary">Sign in</button>
+            <br>
+            <br>
+            <hr id="ssbreak">
+            <div id="sign-up-block">
+                <a href="http://127.0.0.1:5500/SignUp.html" target="_self" id="sign-up-link">sign-up?</a>
+            </div>
+        </form>
+    </div>
+    <section id="box-section">
+        <div id="two-boxes">
+            <div class="box1">
+                <div class="box1-container">
+                    <div id="box1-h2">
+                        <h2>Always Update Every Day</h2>
+                    </div>
+                    <div id="box1-p">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis<br>cing elit elit tellus luctus nec ullamcorper.</p>
+                    </div>
+                    <div id="box1-btns">
+                        <input id="box1email" pattern="/^[a-zA-z0-9.`~!#$%^&*'+/-?_={|}]+@[a-zA-Z0-9-]+.+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Your Email" maxlength="30" type="email">
+                        <button id="box1request">Request</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="box2-container">
+                    <div class="box2-inner-container">
+                        <div class="box2-a">
+                            <ul class="box2a-ulist">
+                                <li>online payment</li>
+                                <li>platform support</li>
+                                <li>secure transaction</li>
+                                <li>responsive web app</li>
+                                <li>divide group payments</li>
+                                <li>lock protection</li>
+                            </ul>
+                        </div>
+                        <div class="box2-b">
+                            <div class="box2b-h2">
+                                <h3>How Can I Help You?</h3>
+                            </div>
+                            <div class="box2b-p">
+                                <p>Lorem ipsum dolor sit amet, consect adipisci<br> elit, sed do eiusmod tempor incididuntut<br> labore dolore magna aliqua consect adipisci<br> elit eiusmod tempor incididuntut.</p>
+                            </div>
+                            <div class="box2b-a">
+                                <a href="">Read More <i id="b2baarrow" class="fa-sharp fa-solid fa-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- serive starts -->
+    <ol id="drop-down">
+        <li><a href="">create account</a></li>
+        <li><a href="">delete account</a></li>
+        <li><a href="">get account</a></li>
+        <li><a href="">payment wallet</a></li>
+    </ol>
+    <!-- service ends -->
+    <!-- logout starts -->
+    <!-- <section id="zoo"> // this is for the user part [delete_user, update_user]
+        <div id="gate">
+            <ol id="logged">
+                <li><p id="userName"></p></li>
+                <li><button id="edit_btn">edit</button></li>
+                <li><button>delete</button></li>
+                <li><button id="logout_btn">logout</button></li>
+            </ol>
+        </div>
+    </section> -->
+    <!-- logout ends -->
+    <script src="./demo.js"></script>
+    <script src="./signin.js"></script>
+</body>
+</html>

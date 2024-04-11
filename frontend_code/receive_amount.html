@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive Amount</title>
+    <link rel="stylesheet" href="./receive_amount.css">
+</head>
+<body>
+    <div id="main">
+        <div id="smain">
+          <div id="logo-container">
+            <img id="logo" title="Click here for Home page" onclick="location.href='http://127.0.0.1:5500/index.html'" src="./image/w1.png" alt="">
+          </div>
+            <div class="form-outermost">
+              <div class="form-outer">
+                <form action="" autocomplete="off">
+                  <h1>receive amount</h1>
+                  <div class="col-md-6">
+                    <label for="money" class="form-label">amount</label>
+                    <br>
+                    <input type="text" class="form-control" name="money" id="money" placeholder="" minlength="1" maxlength="10" required>
+                    <p id="pamnt"></p>
+                  </div>
+                    <br>
+                    <div class="col-md-6">
+                        <label for="initialamount" class="form-label">account number</label>
+                        <br>
+                        <input type="tel" class="form-control" name="initialamount" id="acNo" placeholder="" minlength="7" maxlength="10" required>
+                        <p id="pacno"></p>
+                    </div>
+                    <br>
+                    <div class="btns-container">
+                      <button type="submit" id="subbtn" class="btn btn-primary" >receive</button>
+                    </div>
+              </form>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="./receive_amount.js"></script>
+</body>
+</html>

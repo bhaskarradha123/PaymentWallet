@@ -1,0 +1,319 @@
+@import url(./container1.css);
+@import url(./SignIn.css);
+@import url(./twoboxes.css);
+/* @import url(./SignUp.css); */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#main{
+    /* border: 1px solid black; */
+    display: flex;
+}
+#left{
+    /* border: 3px solid red; */
+    background-image: url('./image/bg-1.jpg');
+    height: 950px;
+    width: 55%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#right{
+    /* border: 3px solid yellow; */
+    background-color: #0058e6;
+    height: 950px;
+    width: 45%;
+}
+#right img{
+    height: 830px;
+    padding-top: 200px;
+    /* position: absolute; */
+    width: 30vw;
+}
+#nav{
+    /* border: 2px solid gold; */
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+}
+#sub-nav{
+    /* border: 2px solid gold; */
+    margin: auto;
+    width: 80%;
+    height: inherit;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+#sub-nav img{
+    height: 5.5em;
+}
+
+#demo{
+    list-style: none;
+    display: inline-flex;
+    /* border: 2px solid; */
+    padding: 0%;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#demo li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight:900;
+    color: black;
+}
+#demo li a:hover{
+    color: #9953ff;
+}
+#snlbtns{
+    /* border: 1px solid; */
+    width: 250px;
+    display: flex;
+}
+#btn{
+    border: none;
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 4em;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: white;
+    /* background-color:#eb9af4 */
+    background-color: #000;
+}
+#logged-in{
+    border: none;
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 4em;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: white;
+    /* background-color:#eb9af4 */
+    background-color: #000;
+}
+
+#btn:hover,#logged-in:hover{
+    color: white;
+    cursor: pointer;
+    /* background-color: rgb(253, 6, 237); */
+    background-color: #BA8EFA;
+}
+#demo1{
+    border-radius: 0px 0px 16px 16px;
+    list-style: none;
+    padding: 10px;
+    width: 120px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    left: 750px;
+}
+#demo1 li a{
+    border-radius: 50px;
+    color: black;
+    height: 15px;
+    /* left: 800px; */
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+}
+#demo1 li+li,#demo1 li{
+    height: 50px;
+    width: 90%;
+    /* border: 1px solid blue; */
+    border-radius: 50px;
+    padding-top: 10px;
+    margin: auto;
+    padding-left: 20px;
+}
+#demo1 li+li:hover,#demo1 li:hover{
+    background-color: #9953ff;
+}
+
+#drop-down li+li:hover,#drop-down li:hover{
+    background-color: #9953ff;
+}
+#aside1{
+    margin-top: 250px;
+    /* border: 1px solid black; */
+    height: 450px;
+}
+#aside1 h1{
+    padding-left: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: capitalize;
+    color: #1a043f
+}
+#aside1 p{
+    padding-left: 100px;
+    padding-top: 20px;
+    line-height: 1.1;
+    font-size: 20px;
+    /* background-color: #697272; */
+    color: #787778;
+    background: transparent;
+}
+#demo2{
+    /* border: 2px solid; */
+    margin-top: 30px;
+    padding-left: 100px;
+    height: 50px;
+    /* margin-top: ; */
+}
+#demo2 button{
+    border: none;
+    /* border: 2px solid yellow; */
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#0058e6
+}
+#demo2 button+button{
+    margin-left: 20px;
+    background-color: white;
+}
+#demo2 button:hover{
+    /* color: white; */
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+#services{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+#drop-down{
+    top: 140px;
+    left: 620px;
+    background-color: white;
+    border-radius: 0px 0px 16px 16px;
+    list-style: none;
+    padding: 10px;
+    width: 125px;
+    height: 230px;
+    position: absolute;
+    display: none;
+}
+#services:hover{
+    cursor: pointer;
+    color: #BA8EFA;
+}
+
+#drop-down li,#drop-down li+li{
+    height: 50px;
+    width: 90%;
+    /* border: 1px solid blue; */
+    border-radius: 50px;
+    padding-top: 10px;
+    margin: auto;
+    padding-left: 13px;
+}
+#drop-down li a{
+    border-radius: 50px;
+    color: black;
+    height: 20px;
+    /* left: 800px; */
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+}
+/*
+#zoo{
+    position: absolute; 
+    height: 260px;
+    width: 100%;
+    border: 1px solid green;
+    padding: 5px;
+    bottom: 48.5%;
+}
+#gate{
+    border: 1px solid red;
+    margin-left: 75%;
+    width: 13%;
+    height: inherit;
+    display : none;
+    left: 60%;
+}
+#logged{
+    border-radius: 0px 0px 16px 16px;
+    list-style: none;
+    height: inherit;
+    padding: 10px;
+    width: 100%;
+    display: none;
+    border: 3px solid blue;
+    background-color: white;
+}
+
+
+#logged li button{
+    border: 3px solid yellow;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+}
+#logged li button:hover{
+    background-color:#9953ff
+}
+#username{
+    border: 1px solid;
+    border: 3px solid yellow;
+    width: 100%;
+    border-radius: 16px;
+    padding: 5%;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+}
+
+#logged li,#logged li+li{
+    height: 25%;
+    width: 100%;
+    align-items: center!important;
+    border-radius: 50px;
+    text-align:center;
+}
+#loggeed li+li:hover,#logged li:hover{
+    background-color: lightgrey;
+}
+#logged li:hover{
+    background-color: white;
+}
+*/

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./create_account.css">
+</head>
+<body>
+    <div id="main">
+        <div id="smain">
+          <div id="logo-container">
+            <img id="logo" title="Click here for Home page" onclick="location.href='http://127.0.0.1:5500/index.html'" src="./image/w1.png" alt="">
+          </div>
+            <div class="form-outermost">
+              <div class="form-outer">
+                <form id="create" action="" autocomplete="off">
+                  <h1>create account</h1>
+                  <!-- <hr> -->
+                  <!-- <br> -->
+                  <div class="col-md-6">
+                      <label for="inputName4" class="form-label">minimum balance</label>
+                      <br>
+                      <select class="form-select" id="ddbtn" aria-label="Default select example">
+                        <option selected value="0">select</option>
+                        <option value="500">five hundred</option>
+                        <option value="1000">one thousand</option>
+                        <option value="2000">two thousand</option>
+                        <option value="5000">five thousand</option>
+                        <option value="10000">ten thousand</option>
+                      </select>
+                      <p id="minimum">minimum balance should not be empty</p>
+                    </div>
+                    <br>
+                  
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">password</label>
+                      <br>
+                      <input type="password" id="supassword" placeholder="password" autocomplete="off" class="form-control" name="inputPassword4" minlength="6" maxlength="20">
+                      <br>
+                      <p id="password">password should not be empty</p>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                      <label for="initialamount" class="form-label">initial amount</label>
+                      <br>
+                      <input type="tel" class="form-control" name="initialamount" id="inamnt" placeholder="" minlength="" maxlength="10">
+                      <br>
+                      <p id="initial">initial amount should not be empty</p>
+                    </div>
+                    <br>
+                    <div class="btns-container">
+                      <button type="submit" id="subbtn" class="btn btn-primary" >create</button>
+                      <!-- <button type="reset" id="resbtn" class="btn btn-primary">reset</button> -->
+                    </div>
+              </form>
+              </div>      
+            </div>
+        </div>
+    </div>
+    <script src="./create_account.js"></script>
+</body>
+</html>
